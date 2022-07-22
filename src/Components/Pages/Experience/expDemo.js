@@ -14,7 +14,6 @@ import Adobe from "../../images/xd.png"
 import Figma from "../../images/figma.png"
 import GitHub from "../../images/git.png"
 
-import Exp from "../../images/exp.png"
 
 const ExpList = [ 
   {
@@ -113,22 +112,9 @@ const Experience = () => {
   return (
     <div>
       <div className='container-sm rootExp' >
-      
-        <div className="flxer">
-          <div className="imgr">
-            <img src={Exp} alt="" width='100%' />
-          </div>
-          <div className="quote">
-            <h1 className='aboutSubText  cont' >If You Think Math is Hard Try Web Design</h1>
-            <h4> -Pixxelznet</h4>
-          </div>
-          </div> <hr />
-          
-          
-
-          <div className="sliderrr">
-          <h1 className='aboutSubText  cont' >Experience</h1>
+        <h1 className='aboutSubText  cont' >Experience</h1>
         <p>Some of the tools learnt to Build and Design the website</p>
+          
           <div className="exp container">
         <Slider {...settings}>
           { ExpList.map(({ id, img, title,  }) => (
@@ -145,9 +131,6 @@ const Experience = () => {
 ))}
         </Slider>
         </div>
-          </div>
-
-          
         
 </div>
       </div>
