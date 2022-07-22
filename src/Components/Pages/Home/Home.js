@@ -19,7 +19,7 @@ const Home = () => {
               
               <div className="buttonwrap">
               <a href={Resume} download='Resume'><button className='primary' type="submit">Download CV</button></a>
-              <button className='secondary' type="submit">Download CV</button>
+              <button className='secondary' type="submit">Contact Me</button>
               </div>
           </div>
           

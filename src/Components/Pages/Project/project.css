@@ -1,0 +1,91 @@
+.projRoot{
+    margin-top: 50px;
+}
+
+.menu-items{
+    width: 100%;
+    margin-bottom: 150px;
+    margin-top: 20px;
+    
+}
+.projectWrapper{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.main-title{
+    width: 100%;
+}
+
+.item1 img{
+    border-radius: 5px;
+    width:350px;
+    height: 250px;
+}
+
+.btn-wrapr{
+    display: flex;
+    gap: 10px;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+padding: 0 2px;
+}
+.alinker{
+    padding: 10px 20px;
+    color: #545454;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    text-align: center;
+}
+.primary{
+    color:white
+}
+.primary:hover{
+    color:white
+}
+
+.RootImage{
+    position: relative;
+}
+
+.floater{
+    position: absolute;
+    background-color: white;
+    font-size: 15px;
+    top: 10px;
+    left: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.texter{
+    padding-left:5px
+}
+
+.texter .projH{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.texter p{
+    font-size: 13px;
+    margin-bottom: 5px;
+    padding-right:7px ;
+}
+
+.img-fluid{
+    filter: grayscale(100%);
+}
+.img-fluid:hover{
+    filter: grayscale(0%);
+}
+
+@media screen and (max-width:1020px){
+    .menu-items{
+        width: 100%;
+        margin-bottom: 80px;  
+    }
+    .RootImage{
+        width: 100%;
+    }
+}
