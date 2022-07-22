@@ -35,14 +35,14 @@ export default [
         title:"Meme Generator",
         img: meme,
         desc: `I have built a dynamic page application called “Meme Generator” 
-        which is a fun app where you can generate a meme by adding text on the image provided by API. `,
+        which is a fun app where you can generate a random meme by clicking "getRandom Meme Button". And add your own text. `,
         siteLink: `https://meme-generator-six-xi.vercel.app/`,
         codeLink:`https://github.com/Shivkumar54/meme_generator`,
         
     },
     {
         id:4,
-        title:"Taskie - Task Manager",
+        title:"Taskie ",
         img: taskie,
         desc: `It is a Task manager Application  in which users can store their day to day tasks in this application. 
         I build this during my internship at Shape AI`,

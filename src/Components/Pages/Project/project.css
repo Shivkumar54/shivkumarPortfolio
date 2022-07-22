@@ -1,11 +1,30 @@
 .projRoot{
     margin-top: 50px;
+    display:flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content: center;
+}
+.flexerImg{
+    width: 100%;
+}
+.flexerImg img{
+    width: 100%;
+}
+.flexertxt{
+    width: 100%;
+}
+
+.projDesc{
+   margin-top: 10px; 
+   font-size: 19px;
 }
 
 .menu-items{
     width: 100%;
     margin-bottom: 150px;
-    margin-top: 20px;
+    margin-top: 50px;
     
 }
 .projectWrapper{
@@ -80,6 +99,7 @@ padding: 0 2px;
     filter: grayscale(0%);
 }
 
+
 @media screen and (max-width:1020px){
     .menu-items{
         width: 100%;
@@ -87,5 +107,8 @@ padding: 0 2px;
     }
     .RootImage{
         width: 100%;
+    }
+    .projRoot{
+        display:block;
     }
 }
