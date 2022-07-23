@@ -55,20 +55,20 @@ export default [
         title:"E- Commerce",
         img: ecommerce,
         desc: `I have built E Commerce site from scratch using HTML CSS and JavaScript. It is responsive for all the devices. I build this by a YouTube tutorial`,
-        siteLink: ``,
-        codeLink:``,
+        siteLink: `https://ecommerce-site-self.vercel.app/`,
+        codeLink:`https://github.com/Shivkumar54/ecommerce`,
         
     },
-    
     {
         id:6,
         title:"Tenzie",
         img: tenzie,
-        desc: `Tenzi is the fast-paced and frenzied dice-rolling game. 
+        desc: ` 
         Here's how to play: be the first player 
-        to roll all ten of your dice to the same number.`,
-        siteLink: ``,
-        codeLink:``,
+        to roll all ten of your dice to the same number.
+        Please Open in Desktop mode in mobile devices  `,
+        siteLink: `https://tenzie-game-ruby.vercel.app/`,
+        codeLink:`https://github.com/Shivkumar54/tenzie `,
         
     },
     {
