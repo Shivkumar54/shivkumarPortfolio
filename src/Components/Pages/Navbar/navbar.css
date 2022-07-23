@@ -28,9 +28,11 @@
     cursor: pointer;
     font-size: 15px;
 }
-h5{
-    font-size: 24px;
-    color: #545454;
+.navLogo{
+    width: 200px;
+}
+img{
+    width: 100%;
 }
 
 .hamburger{

@@ -3,7 +3,30 @@ import AboutImage from "../../images/about.png"
 import "./about.css"
 import {FiArrowDown} from "react-icons/fi"
 
+import bat from "../../AboutImages/bat.png"
+import Music from "../../AboutImages/music.png"
+import Books from "../../AboutImages/reading.png"
+
 const About = () => {
+
+  const interestList = [
+    {
+      id: 1,
+      pic: bat,
+      title:"Playing Batmition"
+    },
+    {
+      id: 2,
+      pic: Music,
+      title:"listening Music"
+    },
+    {
+      id: 3,
+      pic: Books,
+      title:"Reading Books"
+    },
+  ]
+
   return (
     <div className="container about " >
 
@@ -23,10 +46,35 @@ const About = () => {
           I'm a React JS developer with 6 months of experience, and 2+ years of experience in HTML and CSS. Web designer specializing in Adobe XD and Figma Tools.</p>
         
           <div className="buttonwrap">
+          <a href="https://www.linkedin.com/in/shivkumar-m-a7a49b205/">
               <button className='primary' type="submit">Linkedin</button>
+            </a>
+          <a href="https://github.com/Shivkumar54">
               <button className='secondary' type="submit">Github</button>
+            </a>
+
+
               </div>
       </div>
+      </div>
+      <div className="interrests">
+        <div className="inter1   ">
+        <h1 className='' >Interest <br /> &  Hoobies </h1>
+        </div>
+        <div className="inter2 ">
+
+          {
+            interestList.map(({ id, pic, title }) => (
+              <div key={id} className="widther">
+          <img src={pic} alt="" />
+          <h4>{title}</h4>
+          </div>
+            ))
+          }
+
+          
+        </div>
+
       </div>
    </div>
   )

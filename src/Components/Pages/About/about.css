@@ -23,6 +23,22 @@ img{
     font-weight: 700;
 }
 
+.interrests{
+    display:block;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.widther img{
+    filter: grayscale(100%);
+}
+.widther img:hover{
+    filter: grayscale(0%);
+}
+
+
+
 @media screen and (min-width:1020px) {
     
     .abt{
@@ -58,7 +74,28 @@ img{
         padding: 0
     }
 
- 
+    .interrests{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+
+    }
+    .inter1{
+        width:50%;
+        text-align: center;
+    }
+    .inter2{
+        width:100%;
+        display: flex;
+        gap: 30px;
+    }
+    .widther{
+        width:200px;
+    }
+    .widther img{
+        width:200px;
+        filter: grayscale(100%);
+    }
 
     .scroller{
         font-size: 20px;

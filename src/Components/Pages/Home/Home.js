@@ -7,7 +7,7 @@ const Home = () => {
 
     const {text} = useTypewriter({
         words: ['Front end Developer', 'Web designer'],
-        loop: 0 // Infinit
+        loop: 0 
       })
 
   return (
@@ -24,8 +24,12 @@ const Home = () => {
               <p className='para fs-5' >I'm a Front end Developer specialized in ReactJS, JavaScript HTML & CSS. <br /> Web designer specializing in Adobe-XD and Figma.</p>
               
               <div className="buttonwrap">
-              <a href={Resume} download='Resume'><button className='primary' type="submit">Download CV</button></a>
+                  <a href={Resume} download='Resume'>
+                      <button className='primary' type="submit">Download CV</button>
+                  </a>
+                  <a href="/contact">
               <button className='secondary' type="submit">Contact Me</button>
+                  </a>
               </div>
           </div>
           

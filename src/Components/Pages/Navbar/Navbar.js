@@ -3,6 +3,7 @@ import "./navbar.css"
 import {FaBars, FaTimes} from "react-icons/fa"
 import { Outlet, Link } from "react-router-dom";
 
+import Signature from "../../images/signature.png"
 
 const Navbar = () => {
 
@@ -45,8 +46,10 @@ const Navbar = () => {
   return (
           <div className='navBase'>
           <div className='navroot container'>
-          <div className="navLogo">
-          <h5>Shivkumar</h5>
+              <div className="navLogo">
+                  <a href="/">
+                  <img src={Signature} alt=""/>
+                  </a>
           </div>  
           <div className="navLinks">
               <ul>
