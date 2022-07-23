@@ -49,7 +49,7 @@ const Projects = () => {
           <img src={ProjectImg} alt="" />
         </div>
         <div className="flexertxt">
-          <h1 className='aboutSubText cont ' >Projects </h1>
+          <h1 className='aboutSubText cont projH1 ' >Projects & Accomplishment</h1>
           <p className='projDesc' >These are some of my projects and accomplishments, some project I did myself and some are from my "Internships" and from YouTube tutorials. Do Visit the site or View the code by clicking the buttons given below the project and leave your valuable feedbacks in contact page. <br /> Thankyou </p>
 
 

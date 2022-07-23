@@ -15,10 +15,14 @@
 .flexertxt{
     width: 100%;
 }
+.projH1{
+    font-size: 35px;
+    margin-top: 20px;
+}
 
 .projDesc{
    margin-top: 10px; 
-   font-size: 19px;
+   font-size: 15px;
 }
 
 .menu-items{
