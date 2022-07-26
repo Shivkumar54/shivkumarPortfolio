@@ -11,7 +11,7 @@ const Contact = () => {
       <h1 className='aboutSubText cont'>Contact Me</h1>
 
         <p className='cont-desc' >Leave your valuable feedbacks, comments or message below  </p>
-        <p className='note' ></p>
+        <p className='note' > </p>
 
         <form action="https://getform.io/f/12111e44-c5e7-41d8-88a0-d3de5462a2d5" method='POST'>
           <input type="text" placeholder='Your Name' required />
