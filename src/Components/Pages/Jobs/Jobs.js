@@ -6,7 +6,7 @@ const Jobs = () => {
     {
       id: 1,
       imgg:"https://www.top-employers.com/contentassets/ed7e1b2cb1fd40cab269b2f1839ce5ce/oid00d200000000wi7ids0683y00000jvywbda3y000000iazmsgikkcyh5cad4etln20g6hz3b1gdurj453kqqoqlxgaaspdffalse3?format=jpeg&bgcolor=white&quality=75&height=75" ,
-      title: "Front-End Developer",
+      title: "Assistant System Engineer",
       companyName: "Tata Consultancy Services",
       Loaction:"Mumbai",
       years:"Currently Working",
