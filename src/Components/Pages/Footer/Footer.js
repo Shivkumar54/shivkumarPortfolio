@@ -7,7 +7,9 @@ import {SiVercel} from "react-icons/si"
 const Footer = () => {
   return (
       <div className='footer' >
-          <img src={Signature} alt=""  />
+          <a href="/" className='ft-img' >
+                  <img src={Signature} alt="" />
+                  </a>
       <h6>Follow me on </h6>
       <div className="social-icons d-flex gap-3">
         {/* <p><FaLinkedin size={20} /></p>

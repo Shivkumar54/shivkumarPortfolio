@@ -17,6 +17,17 @@ import GitHub from "../../images/git.png"
 import Exp from "../../images/exp.png"
 
 const ExpList = [ 
+ 
+  {
+    id: 5,
+    img: ReactImg,
+    title: "ReactJS",
+  },
+  {
+    id: 4,
+    img: JavaScript,
+    title: "JavaScript",
+  },
   {
     id: 1,
     img: HTMl,
@@ -33,16 +44,6 @@ const ExpList = [
     img: Bootstrap,
     title: "Bootstrap",
 
-  },
-  {
-    id: 4,
-    img: JavaScript,
-    title: "JavaScript",
-  },
-  {
-    id: 5,
-    img: ReactImg,
-    title: "ReactJS",
   },
   {
     id: 6,
