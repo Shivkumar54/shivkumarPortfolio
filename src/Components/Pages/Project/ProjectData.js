@@ -3,14 +3,23 @@ import backup from "../../projectimages/backup.png"
 import ecommerce from "../../projectimages/ecommerce.png"
 import meme from "../../projectimages/meme.png"
 import movie from "../../projectimages/movie.png"
-import taskie from "../../projectimages/taskie.png"
-import tenzie from "../../projectimages/tenzie.png"
+import todo from "../../projectimages/todo.png"
 import zomato from "../../projectimages/zomatoLP.png"
 import Spottr from "../../projectimages/Spottr.png"
+import wynk from "../../projectimages/wynk.png"
 
 
 
 export default [
+    {
+        id:121,
+        title:"Wynk Music Clone",
+        img: wynk,
+        desc: `I have built Wynk music from scratch using React and Bootstrap. It is responsive for all the devices. I used the TMDB movie database for movie details. Deployed in vercel  `,
+        siteLink: `https://wynkmusic-clone.vercel.app/`,
+        codeLink:`https://github.com/Shivkumar54/wynkmusic-clone`,
+        
+    },
     {
         id:1,
         title:"Book my Show Clone",
@@ -43,7 +52,7 @@ export default [
     {
         id:4,
         title:"Taskie ",
-        img: taskie,
+        img: todo,
         desc: `It is a Task manager Application  in which users can store their day to day tasks in this application. 
         I build this during my internship at Shape AI`,
         siteLink: `https://taskify-project-02.vercel.app/`,
@@ -62,7 +71,7 @@ export default [
     {
         id:6,
         title:"Tenzie",
-        img: tenzie,
+        img: todo,
         desc: ` 
         Here's how to play: be the first player 
         to roll all ten of your dice to the same number.
