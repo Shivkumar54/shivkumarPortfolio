@@ -15,9 +15,10 @@
 .flexertxt{
     width: 100%;
 }
-.projH1{
-    font-size: 35px;
-    margin-top: 20px;
+.eachProjects{
+    font-size: 21px;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 .projDesc{
