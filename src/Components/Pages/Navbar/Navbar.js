@@ -62,7 +62,11 @@ const Navbar = () => {
         </div>
 
         <div className="hamburger" onClick={() => setNav(!nav)}>
-          {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+          {nav ? (
+            <FaTimes size={20} className="iconss" />
+          ) : (
+            <FaBars size={20} className="iconss" />
+          )}
         </div>
 
         {nav && (
