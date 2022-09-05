@@ -48,9 +48,7 @@ const Projects = () => {
           <img src={ProjectImg} alt="" />
         </div>
         <div className="flexertxt">
-          <h1 className="aboutSubText cont projHeading ">
-            Projects & Accomplishment
-          </h1>
+          <h1 className="projectHeading">Projects & Accomplishment</h1>
           <p className="projDesc">
             These are some of my projects and accomplishments, some project I
             did myself and some are from my "Internships" and from YouTube

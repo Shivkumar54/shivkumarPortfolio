@@ -1,119 +1,126 @@
-.projRoot{
-    margin-top: 50px;
-    display:flex;
-    width: 100%;
-    flex-direction: row-reverse;
-    align-items:center;
-    justify-content: center;
+.projRoot {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
 }
-.flexerImg{
-    width: 100%;
+.flexerImg {
+  width: 100%;
 }
-.flexerImg img{
-    width: 100%;
+.flexerImg img {
+  width: 100%;
 }
-.flexertxt{
-    width: 100%;
+.flexertxt {
+  width: 100%;
 }
-.eachProjects{
-    font-size: 21px;
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-.projDesc{
-   margin-top: 10px; 
-   font-size: 15px;
+.eachProjects {
+  font-size: 21px;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
-.menu-items{
-    width: 100%;
-    margin-bottom: 150px;
-    margin-top: 50px;
-    
-}
-.projectWrapper{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.projDesc {
+  margin-top: 10px;
+  font-size: 15px;
 }
 
-.main-title{
-    width: 100%;
+.menu-items {
+  width: 100%;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+.projectWrapper {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.item1 img{
-    border-radius: 5px;
-    width:350px;
-    height: 250px;
+.main-title {
+  width: 100%;
 }
 
-.btn-wrapr{
-    display: flex;
-    gap: 10px;
-justify-content: center;
-align-items: center;
-margin-top: 20px;
-padding: 0 2px;
-}
-.alinker{
-    padding: 10px 20px;
-    color: #545454;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border-radius: 5px;
-    text-align: center;
-}
-.primary{
-    color:white
-}
-.primary:hover{
-    color:white
+.item1 img {
+  border-radius: 5px;
+  width: 350px;
+  height: 250px;
 }
 
-.RootImage{
-    position: relative;
+.btn-wrapr {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 2px;
+}
+.alinker {
+  padding: 10px 20px;
+  color: #545454;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 5px;
+  text-align: center;
+}
+.primary {
+  color: white;
+}
+.primary:hover {
+  color: white;
 }
 
-.floater{
-    position: absolute;
-    background-color: white;
-    font-size: 15px;
-    top: 10px;
-    left: 10px;
-    border-radius: 5px;
-    padding: 5px 10px;
+.RootImage {
+  position: relative;
 }
 
-.texter{
-    padding-left:5px
+.floater {
+  position: absolute;
+  background-color: white;
+  font-size: 15px;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
-.texter .projH{
-    font-size: 25px;
+.texter {
+  padding-left: 5px;
+}
+
+.texter .projH {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.texter p {
+  font-size: 13px;
+  margin-bottom: 5px;
+  padding-right: 7px;
+}
+
+.img-fluid {
+  filter: grayscale(100%);
+}
+.img-fluid:hover {
+  filter: grayscale(0%);
+}
+
+ .projectHeading{
+    font-size: 40px;
     font-weight: 700;
-    margin-bottom: 10px;
-}
-.texter p{
-    font-size: 13px;
-    margin-bottom: 5px;
-    padding-right:7px ;
-}
+  }
 
-.img-fluid{
-    filter: grayscale(100%);
-}
-.img-fluid:hover{
-    filter: grayscale(0%);
-}
-
-
-@media screen and (max-width:1020px){
-    .menu-items{
-        width: 100%;
-        margin-bottom: 80px;  
-    }
-    .RootImage{
-        width: 100%;
-    }
-    .projRoot{
-        display:block;
-    }
+@media screen and (max-width: 1020px) {
+  .menu-items {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .RootImage {
+    width: 100%;
+  }
+  .projRoot {
+    display: block;
+  }
+  .projectHeading{
+    font-size: 35px;
+    font-weight: 700;
+  }
 }
