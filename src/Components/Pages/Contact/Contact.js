@@ -5,13 +5,12 @@ const Contact = () => {
   return (
     <div className='contacter container ' >
       <div className="contact-img">
-        <img src={ContactImage} alt="" width='100%' />
+        <img src={ContactImage} alt="" className='imagee' />
       </div>
-      <div>
+      <div className='contentHolder'>
       <h1 className='aboutSubText cont'>Contact Me</h1>
 
         <p className='cont-desc' >Leave your valuable feedbacks, comments or message below  </p>
-        <p className='note' > </p>
 
         <form action="https://getform.io/f/12111e44-c5e7-41d8-88a0-d3de5462a2d5" method='POST'>
           <input type="text" placeholder='Your Name' required />

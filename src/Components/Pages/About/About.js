@@ -58,16 +58,16 @@ const About = () => {
       </div>
       </div>
       <div className="interrests">
-        <div className="inter1   ">
-        <h1 className='' >Interest <br /> &  Hoobies </h1>
+        <div className="inter1">
+        <h1 className='hobbies' >Interest <br /> &  Hoobies </h1>
         </div>
         <div className="inter2 ">
 
           {
             interestList.map(({ id, pic, title }) => (
               <div key={id} className="widther">
-          <img src={pic} alt="" />
-          <h4>{title}</h4>
+          <img src={pic} alt="" className='widtherImg' />
+          <h4 className='titler' >{title}</h4>
           </div>
             ))
           }

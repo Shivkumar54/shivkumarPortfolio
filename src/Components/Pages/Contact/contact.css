@@ -1,55 +1,69 @@
-.contacter{
-    
+.contacter {
+  margin-top: 50px;
 }
-.contact-img{
-    width: 100%;
+.contact-img {
+  display: none;
 }
- form{
-    margin-top: 20px ;
-    margin-bottom:100px ;
+
+.contentHolder {
+  width: 100%;
+}
+form {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont {
+  margin-bottom: 0px;
+}
+
+input {
+  border: 1px solid #545454;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.emailer {
+  margin: 10px 0;
+}
+textarea {
+  border: 1px solid #545454;
+  border-radius: 7px;
+  text-indent: 10px;
+}
+
+.cont-desc {
+  font-size: 17px;
+  margin-bottom: 0px;
+}
+
+.aboutSubText {
+  font-size: 45px;
+}
+
+@media screen and (min-width: 1020px) {
+  form {
+    margin-top: 10px;
+    margin-bottom: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
-}
-
-.cont{
-    margin-bottom: 0px;
-}
-
-input{
-    border: 1px solid #545454;
+  }
+  .contacter {
+    display: flex;
+    margin-top: 30px;
+  }
+  .contact-img {
+    display: block;
     width: 100%;
-    padding: 5px 10px;
-    border-radius: 7px;
-}
-.emailer{
-    margin: 10px 0;
-}
-textarea{
-    border: 1px solid #545454;
-    border-radius: 7px;
-    text-indent: 10px;
-}
-
-.cont-desc{
-    font-size: 25px;
-    line-height:30px
-}
-
-.note{
-    font-size: px;
-}
-
-@media screen and (min-width:1020px) {
-    form{
-        margin-top: 10px ;
-        margin-bottom: 100px ;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    } 
-    .cont{
-        display: block;
-    }
-    
+  }
+  .imagee {
+    width: 100%;
+  }
+  .cont {
+    display: block;
+  }
 }
