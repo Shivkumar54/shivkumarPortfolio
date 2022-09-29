@@ -32,7 +32,7 @@ export default [
   {
     id: 12544,
     title: "Binge Watch",
-    img: bms,
+    img: binge,
     desc: `I have built Binge Watch using React . I used the TMDB movie database for movie details. used dynamic routing for movie details pages.  It is responsive for all the devices.`,
     siteLink: `https://bingewatch-ott.vercel.app/`,
     codeLink: `https://github.com/Shivkumar54/bingewatch`,
