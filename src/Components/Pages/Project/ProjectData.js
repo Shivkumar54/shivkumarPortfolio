@@ -9,18 +9,35 @@ import Spottr from "../../projectimages/Spottr.png"
 import wynk from "../../projectimages/wynk.png"
 import youtube from "../../projectimages/youtube.png"
 import disney from "../../projectimages/disney.png"
-
-
+import binge from "../../projectimages/binge.png"
+import coins from "../../projectimages/coins.png"
 
 export default [
   {
     id: 1,
+    title: "Coins-Hub",
+    img: coins,
+    desc: `I have built Coins-hub from scratch using React . It is responsive for all the devices. I used the CoinsGecko API to get coins details and price. Coins Price will be updated daily. `,
+    siteLink: `https://coins-hub.vercel.app/`,
+    codeLink: `https://github.com/Shivkumar54/CoinsHub`,
+  },
+  {
+    id: 198163,
     title: "Book my Show Clone",
     img: bms,
     desc: `I have built Book my show clone from scratch using React and Tailwind CSS. It is responsive for all the devices. I used the TMDB movie database for movie details. I build this during my internship at Shape AI `,
     siteLink: `https://book-my-show-clone-taupe.vercel.app/`,
     codeLink: `https://github.com/Shivkumar54/Book_My_Show_Clone`,
   },
+  {
+    id: 12544,
+    title: "Binge Watch",
+    img: bms,
+    desc: `I have built Binge Watch using React . I used the TMDB movie database for movie details. used dynamic routing for movie details pages.  It is responsive for all the devices.`,
+    siteLink: `https://bingewatch-ott.vercel.app/`,
+    codeLink: `https://github.com/Shivkumar54/bingewatch`,
+  },
+
   {
     id: 12174687,
     title: "Disney+ Hotstar - Clone",
