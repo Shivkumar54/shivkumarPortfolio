@@ -103,10 +103,10 @@
   filter: grayscale(0%);
 }
 
- .projectHeading{
-    font-size: 40px;
-    font-weight: 700;
-  }
+.projectHeading {
+  font-size: 40px;
+  font-weight: 700;
+}
 
 @media screen and (max-width: 1020px) {
   .menu-items {
@@ -119,8 +119,11 @@
   .projRoot {
     display: block;
   }
-  .projectHeading{
+  .projectHeading {
     font-size: 35px;
     font-weight: 700;
+  }
+  .texter {
+    text-align: left;
   }
 }
