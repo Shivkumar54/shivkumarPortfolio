@@ -1,7 +1,7 @@
 import React from "react"
 import HomeImage from "../../images/homeImgg.png"
 import "./home.css"
-import Resume from "../../Resume/Resume.pdf"
+import Resume from "../../Resume/shivkumar.pdf"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 const Home = () => {
   const { text } = useTypewriter({
